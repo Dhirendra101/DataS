@@ -1,3 +1,5 @@
+#{"query":{"bool":{"must":[{"match":{"BNF_Chapter_Code":"2"}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}
+
 
 # coding: utf-8
 
