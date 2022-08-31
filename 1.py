@@ -1,5 +1,5 @@
 #{"query":{"bool":{"must":[{"match":{"BNF_Chapter_Code":"2"}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}
-
+#{"query":{"bool":{"must":[],"must_not":[],"should":[{"match":{"BNF_Chapter_Code":"1"}},{"match":{"BNF_Section_Code":""}},{"match":{"BNF_Paragraph_Code":"10101"}},{"match":{"BNF_Presentation_Code":""}},{"match":{"BNF_Subparagraph_Code":""}},{"match":{"BNF_Chemical_Substance":"Sodium"}}]}},"from":0,"size":10,"sort":[],"aggs":{}}
 
 # coding: utf-8
 
